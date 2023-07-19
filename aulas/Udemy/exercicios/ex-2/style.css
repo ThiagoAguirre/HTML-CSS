@@ -1,0 +1,9 @@
+.titulo{
+    text-align: center;
+    background-color: blueviolet;
+    padding: 50px 40px 30px 20px;
+    /* paddding top right bottom left*/
+    margin: 50px 40px 30px 20px;
+    /*margin top right bottom left*/
+}
+
