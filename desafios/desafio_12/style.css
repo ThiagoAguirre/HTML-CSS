@@ -23,12 +23,12 @@ body {
     display: inline-block;
     list-style-type: none;
     border: 1px solid white;
-    margin-left: 6px;
+    margin-left: 4px;
 }
 
 .menu a{
     background-color: rgba(0, 0, 0, .3);
-    color: #fff;
+    color: #f9f9f9;
     display: block;
     padding: 14px;
 }
@@ -60,7 +60,7 @@ body {
 }
 
 .titulo h1 {
-    font-size: 56;
+    font-size: 46px;
     text-shadow: 2px 2px 2px black;
 }
 
