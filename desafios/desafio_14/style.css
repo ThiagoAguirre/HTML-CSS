@@ -1,0 +1,108 @@
+body{
+    background-color: #0c1014;
+    color: white;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-title{
+    font-size: 63px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    background-color: #05080a;
+    padding: 16px;
+    justify-content: space-between;
+}
+
+.header-logo{
+    font-size: 38px;
+    text-transform: uppercase;
+    margin-left: 15px;
+    
+}
+
+.header-nav ul {
+    display: flex;
+    list-style-type: none;
+    font-family: 18px;
+    gap: 15px;
+}
+
+.header-nav a{
+    color: azure;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.header-nav a:hover{
+    text-decoration: underline;
+    background-color: rgb(228, 1, 1);
+}
+
+.pricing{
+    display: flex;
+    gap: 16px;
+}
+
+.pricing-plan{
+    flex: 1;
+    background-color: #2b2f2f;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 12px -6px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.class-plan-title{
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(255, 0, 0);
+    margin-top: 0;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.pricing-plan p{
+    margin-top: 0;
+}
+
+.price-value {
+    font-size: 30px;
+}
+
+.pricing-plan-features{
+    margin: 0 0 35px;
+    font-size: 16px;
+    color: aliceblue;
+    padding-left: 14px;
+    line-height: 1.8;
+    flex: 1;
+}
+
+.pricing-plan-features li::marker{
+    color: rgba(254, 72, 72, 0.826);
+}
+
+.pracing-plan-cta {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(228, 1, 1);
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 10px ;
+    text-align: center;
+}
+
+.pracing-plan-cta:hover{
+    color: aliceblue;
+    background-color: rgb(228, 1, 1);
+}
