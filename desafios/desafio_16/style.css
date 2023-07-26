@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap');
+
+:root {
+    --color: rgb(22, 32, 40);
+    --color_2: rgb(46, 77, 98);
+    --color_3: rgba(225, 223, 222, 0.636);
+    --color_4: rgb(11, 23, 31);
+    --color_5: rgb(91, 131, 148);
+    --color_6: rgb(233, 233, 233);
+}
+
+.header {
+    display: flex;
+    padding: 12px;
+    justify-content: space-between;
+    background-color: var(--color);
+}
+
+.header-logo {
+    color: rgb(246, 246, 246);
+    font-family: 'Bodoni Moda', serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-left: 20%;
+}
+
+.header-nav ul {
+    color: var(--color_2);
+    display: flex;
+    list-style-type: none;
+    font-family: 19px;
+    gap: 10px;
+}
+
+.header a {
+    color: var(--color_2);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-right: 40px;
+}
+
+.header a:hover {
+    background-color: var(--color_3);
+    color: var(--color_2);
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.imagem {
+    background: url(image/topo.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 1px;
+}
+
+
+.rodape {
+    color: var(--color_5);
+    background-color: var(--color_4);
+    text-align: center;
+    padding: 30px;
+    letter-spacing: 2px;
+}
+
+.text h2{
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 26px;
+}
+
+.text p {
+    text-align: center;
+    font-size: 20px;
+    padding: 1px;
+    width: 90%;
+    margin: auto;
+    max-width: 1860px;
+}
+
+.imagem-bg{
+    background: url(image/bg_detalhe.png);
+    height: 700px;
+    background-size: cover;
+    background-position: right bottom;
+    padding-top: 1px;
+}
+
+.imagem-bg{
+    margin: 1px;
+}
+
+.imagem-bg h2{
+    margin: 100px;
+    text-transform: uppercase;
+    color: var(--color_6);
+    font-family: 'IBM Plex Mono', monospace;
+    letter-spacing: 2px;
+    font-size: 50px;
+    
+}
+
+.imagem-bg p{
+    margin: 100px;
+    margin-right: 400px;
+    display: block;
+    flex-wrap: 1;
+    overflow: unset;
+    font-size: 20px;
+    color: var(--color_6);
+}
+
+.card-modelo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 860px;
+    margin: auto;
+    background-color: white;
+    padding: 16px;
+}
+
+.card-modelo img{
+    width: 100%;
+    display: flex;
+}
+
+.card-modelo li{
+    list-style-type: none;
+}
+.frase-modelo{
+    font-weight: bold
+}
+

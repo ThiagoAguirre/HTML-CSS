@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body {
+            padding-bottom: 100vh;
+        }
+
+        textarea {
+            resize: none;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Introdução</legend>
+
+            <input type="email" name="email" placeholder="meuemail@gmail.com">
+            <br>
+            <label for="">Quantidade de arroz</label>
+            <br>
+            <input type="number" id="arroz" min="0" max="100">
+            <br><br><br>
+            <input type="date" min="2022-01-15">
+            <br>
+            Voce gosta de arroz?
+            <label>
+                <input type="radio" name="atvExtra" value="s">Sim
+
+            </label>
+            <label for="">
+                <input type="radio" name="atvExtra" value="n">Não
+            </label>
+            <br>
+
+        </fieldset>
+
+        <fieldset>
+            <br>
+            <legend>Área de interesse</legend>
+
+            <label><input type="checkbox" name="interesse" value="html">HTML </label>
+            <label><input type="checkbox" name="interesse" value="css">CSS</label>
+            <label><input type="checkbox" name="interesse" value="js">JavaScript</label>
+            <label><input type="checkbox" name="interesse" value="python">Python</label>
+            <label><input type="checkbox" name="interesse" value="java">Java</label>
+            <br><br><br>
+            <label>Escolha uma linguagem
+                <br>
+                <select name="linguagem" required multiple size="4">
+                    <option value="">Selecione uma </option>
+                    <optgroup label="frontend">
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="js">JavaScript</option>
+                    </optgroup>
+                    <OPTgroup label="backend">
+                        <option value="python">Python</option>
+                        <option value="java">Java</option>
+                    </OPTgroup>
+                </select>
+
+                <input type="text" list="LinguagemList">
+                <datalist id="LinguagemList">
+                    <option value="Html">
+                    <option value="CSS">
+                    <option value="JS">
+                    <option value="JavaScript">
+                    <option value="python">
+                    <option value="PHP">
+
+                </datalist>
+
+
+            </label>
+
+
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Mensagem</legend>
+            <textarea name="msg" cols="30" rows="5"> Oi</textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Mensagem</legend>
+            <textarea name="msg" cols="30" rows="5" disabled> Ola mundo</textarea>
+
+            <br>
+            <input type="file">
+        </fieldset>
+
+        <input type="hidden" value="abc">
+
+        <br><br>
+        <input type="submit" value="mandar">
+        <input type="button" value="button">
+        <br>
+        <input type="range" min="0" max="30" step="2">
+        <br><br>
+        <input type="time" name="" id="">
+        <br><br>
+        <input type="color" name="" id="">
+
+
+    </form>
+</body>
+
+</html>
