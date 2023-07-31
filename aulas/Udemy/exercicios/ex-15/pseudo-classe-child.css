@@ -1,0 +1,27 @@
+/* div :first-child{
+    color: red;
+} */
+
+p:first-child {
+    color: aqua;
+}
+
+p:last-child {
+    color: orange;
+}
+
+p:nth-child(2) {
+    color: seagreen;
+}
+
+p:first-of-type {
+    background-color: antiquewhite;
+}
+
+p:last-of-type {
+    background-color: red;
+}
+
+p:nth-of-type(3) {
+    text-decoration: underline;
+}

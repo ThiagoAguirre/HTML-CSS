@@ -1,0 +1,27 @@
+article{
+    border: 3px solid rgb(85, 0, 255);
+}
+
+article a{
+    color: red;
+}
+
+article a > b{
+    color: green;
+}
+
+h3 + p{
+    background-color: aqua;
+}
+
+h3 ~ p{
+    border: 2px solid salmon;
+}
+
+.destaque{
+    padding-left: 2rem;
+}
+
+article p:not(.destaque){
+    background-color: bisque;
+}

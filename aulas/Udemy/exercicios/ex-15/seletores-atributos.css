@@ -1,0 +1,12 @@
+a[href="#"]:not(.link-ok){
+    color: red;
+    opacity: .2;
+}
+
+a[href^="http"]{
+   color: green;
+}
+
+a[target]{
+    color: aqua;
+}
